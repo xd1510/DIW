@@ -1,0 +1,138 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css"/>
+        <link type="text/css" rel="stylesheet" href="css.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container contenedor">
+            <div class="row cabecera">
+                <div class="col-md-7" id="logo">
+                    <h1 id="logoh1">CodeFriends</h1>
+                </div>
+                <div class="col-md-5 text-right">
+                    <!--  <label>login</label>
+                      <input type="text" class="form-control txtLogin" id="txtuser" placeholder="Email">
+                      <input type="text" class="form-control txtLogin" id="txtpass" >-->
+                    <form class="form-inline" id="frlogin" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="txtuser">Email address</label>
+                            <input type="email" class="form-control" id="txtuser" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="txtpass">Password</label>
+                            <input type="password" class="form-control" id="txtpass" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                        <br>
+                        
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Recuerdame
+                                </label>
+                            </div>
+                       
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="container contenedor">
+            <div id="contenido">
+                
+                    <div class="row cabecera">
+                        <div class="col-md-6" id="lregistroIzqui">
+                            <h3>Comenta,evalua y compara tu código don el mundo</h3>
+
+                            <div id="txtarea">
+                                <textarea class="form-control" rows="15" >
+                                &lt;!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+--&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;dist/css/bootstrap.css&quot;/&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css.css&quot;/&gt;
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container contenedor&quot;&gt;
+&lt;div class=&quot;row cabecera&quot;&gt;
+&lt;div class=&quot;col-md-6&quot; id=&quot;logo&quot;&gt;
+&lt;h1 id=&quot;logoh1&quot;&gt;CodeFriends&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6 text-right&quot;&gt;
+&lt;!-- &lt;label&gt;login&lt;/label&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control txtLogin&quot; id=&quot;txtuser&quot; placeholder=&quot;Email&quot;&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control txtLogin&quot; id=&quot;txtpass&quot; &gt;--&gt;
+&lt;form class=&quot;form-inline&quot; id=&quot;frlogin&quot; role=&quot;form&quot;&gt;
+&lt;div class=&quot;form-group&quot;&gt;
+&lt;label class=&quot;sr-only&quot; for=&quot;txtuser&quot;&gt;Email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;txtuser&quot; placeholder=&quot;Enter email&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-group&quot;&gt;
+&lt;label class=&quot;sr-only&quot; for=&quot;txtpass&quot;&gt;Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;txtpass&quot; placeholder=&quot;Password&quot;&gt;
+&lt;/div&gt;
+&lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Sign in&lt;/button&gt;
+&lt;br&gt;
+&lt;div id=&quot;chek&quot;&gt;
+&lt;div class=&quot;checkbox&quot;&gt;
+&lt;label&gt;
+&lt;input type=&quot;checkbox&quot;&gt;Recuerdame
+&lt;/label&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container contenedor&quot;&gt;
+&lt;div id=&quot;contenido&quot;&gt;
+
+&lt;div class=&quot;row cabecera&quot;&gt;
+&lt;div class=&quot;col-md-6&quot; id=&quot;lregistroIzqui&quot;&gt;
+&lt;h3&gt;Comenta,evalua y compara tu código don el mundo&lt;/h3&gt;
+
+&lt;div id=&quot;txtarea&quot;&gt;
+&lt;textarea class=&quot;form-control&quot; rows=&quot;15&quot; &gt;&lt;/textarea&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot; id=&quot;logo&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="registro">
+                            <h2>Nuevo usuario</h2>
+                             <button type="button" class="btn btn-primary btn-lg">Registrate con Facebook</button>
+                             
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </body>
+</html>
+<!--http://bootsnipp.com/forms-->

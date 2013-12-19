@@ -1,0 +1,49 @@
+/* 
+    Document   : css
+    Created on : 19-dic-2013, 12:34:10
+    Author     : cep
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    background-color: black;
+    color:white;
+}
+root { 
+    display: block;
+}
+.mleft{
+    margin-left: 50px;
+}
+
+.mtop{
+    margin-top: 30px;
+}
+.mtopPoco{
+    margin-top: 10px;
+}
+.padding{
+    padding: 5px;
+}
+
+.border{
+    border: 5px solid white;
+   
+}
+.contenedor{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+     padding: 0px;
+    margin: 0px;  
+}
+#banco{
+    width: 300px;
+}
+#youtube{
+    width: 100%;
+}
+#logo{
+  width: 100%;  
+}
